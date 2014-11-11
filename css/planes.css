@@ -1,0 +1,27 @@
+<style type="text/css">
+#contenedor {
+    display: table;
+    border: 0px solid #000;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+}
+#contenidos {
+	display: table-row;
+	width: 200px;
+	font-size: 12px;
+	color: #000;
+	background-color: #FFF;
+
+}
+#columna1, #columna2, #columna3 {
+	display: table-cell;
+	border: 5px solid #FFF;
+	vertical-align: middle;
+	padding: 5px;
+	width: 250px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 15px;
+	
+}
+</style>
