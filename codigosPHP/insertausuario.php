@@ -31,7 +31,7 @@ while($row=mysql_fetch_array($rec2)){
 	$est=$row['id_estado'];
 	}
 	
-$InsertaUsuario=mysql_query("INSERT INTO usuario VALUES('".$id."','".$tipo."','".$est."','".$usuario."','".$clave."','".$correo."')");
+$InsertaUsuario=mysql_query("INSERT INTO usuario VALUES('".$id."','".$tipo."','".$est."','".$usuario."','".md5($clave)."','".$correo."')");
 
 echo '<script languaje = javascript> 
 		alert("Ingresado Correctamente")
