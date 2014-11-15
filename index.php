@@ -46,16 +46,8 @@
 	<div class="banner-top">
 			<div class="header-bottom">
 				 <div class="header_bottom_right_images">
-				     	<div id="video">						<iframe width="560" height="315" src="//www.youtube.com/embed/FGGwIf7llXw" frameborder="0" allowfullscreen></iframe>
-							<!--<ul class="slides">
-						    	<li><a href="details.html"><canvas ></canvas><img src="images/banner4.jpg" alt="Marsa Alam underawter close up" ></a></li>
-						        <li><a href="details.html"><canvas></canvas><img src="images/banner2.jpg" alt="Turrimetta Beach - Dawn" ></a></li>
-						        <li><a href="details.html"><canvas></canvas><img src="images/banner3.jpg" alt="Power Station" ></a></li>
-						        <li><a href="details.html"><canvas></canvas><img src="images/banner1.jpg" alt="Colors of Nature" ></a></li>-->
-						    </ul>
-						    <span class="arrow previous"></span>
-						    <span class="arrow next"></span>
-				  	</div>
+                 <div class="video">
+				 <iframe class="ytb-embed" width="666" height="500" src="//www.youtube.com/embed/FGGwIf7llXw" frameborder="0" allowfullscreen></iframe></div>
 		  			<div class="content-wrapper">		  
 						<div class="content-top">
 							  	<div class="box_wrapper"><h1>NUESTROS PLANES PARA CLIENTES</h1>
