@@ -136,6 +136,5 @@ AND `comuna`.`ID_COMUNA` = `sucursal`.`ID_COMUNA`';
 </div>
 </div>
 </div>
-<h2>Commit de prueba</h2>
 </body>
 </html>
