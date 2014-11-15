@@ -112,7 +112,7 @@
 				<div class="categories">
 						
 				<div class="box-title">
-					<h1><span class="title-icon"></span><a href="">PAGINAS DE INTERES</a></h1>
+					<h1><span class="title-icon"></span>PAGINAS DE INTERES</h1>
 				</div>
 				<?php include ("includes/paginasinteres.php")?>
 				<div class="clear"></div>
