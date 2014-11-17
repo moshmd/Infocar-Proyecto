@@ -9,6 +9,7 @@
                         <li><a href="muestra_vehiculos.php">Ver Vehiculos</a></li>
 						<li><a href="mapa.php">Sucursales</a></li>
                         <li><a href="contacto.php">Contáctenos</a></li>
+                        <li><a href="planes.php">Planes para clientes</a></li>
 					</ul>
 					<div class="clear"></div> 
 				</div>

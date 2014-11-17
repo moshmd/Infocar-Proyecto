@@ -5,6 +5,7 @@
 						<li><a href="reportes.php">Reportes</a></li>
                         <li><a href="contacto.php">Contáctenos</a></li>
                         <li><a href="mapa.php">Sucursales</a></li>
+                        <li><a href="planes.php">Planes para clientes</a></li>
                        </ul>
 					<div class="clear"></div> 
 				</div>
