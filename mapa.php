@@ -13,11 +13,11 @@
 <script src="js/superfish.js"></script>
 
 <?php 
-$conn = null;
-$host = 'mysql.webcindario.com';
+
+$host = 'localhost';
 $db =   'infocar3';
-$user = 'infocar3';
-$pwd =  'homero01';
+$user = 'root';
+$pwd =  'root';
 try {
 	$conn = new PDO('mysql:host='.$host.';dbname='.$db, $user, $pwd);
 	//echo 'Connected succesfully.<br>';
@@ -74,7 +74,7 @@ AND `comuna`.`ID_COMUNA` = `sucursal`.`ID_COMUNA`';
       }); 
     
     }
-  </script>
+	  </script>
 
 </head>
 <body>
