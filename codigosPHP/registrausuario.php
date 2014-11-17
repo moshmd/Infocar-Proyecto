@@ -8,13 +8,13 @@ $clave = $_POST['clave'];
 
 $clave	=	md5($clave);
 
-$correo = $_POST['correo'];
+$email = $_POST['email'];
 
 $subcri = $_POST['subcribirse'];
 
 
 
-if ($usuario=="" or $clave=="" or $correo==""){
+if ($usuario=="" or $clave=="" or $email==""){
 
 	echo '<script languaje = javascript> 
 
@@ -52,7 +52,7 @@ if ($usuario=="" or $clave=="" or $correo==""){
 
 					else{
 
-						$registro=mysql_query("insert into usuario values('".$id."','1','1','".$usuario."','".$clave."','".$correo."','".$subcri."')");
+						$registro=mysql_query("insert into usuario values('".$id."','1','1','".$usuario."','".$clave."','".$email."','".$subcri."')");
 
 						echo '<script languaje = javascript> 
 
