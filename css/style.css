@@ -676,6 +676,11 @@ caracteristicas{
 
 }
 
+textarea{
+	
+	resize:none;
+	}
+
 p.title {
 
 	font-size: 13px;
@@ -1517,6 +1522,7 @@ ul.list-2 li span a {
 	background: #F0F0F0;
 
 	font-family: 'Arial', sans-serif;
+	 
 
 }
 
