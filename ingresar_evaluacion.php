@@ -134,7 +134,7 @@ $(document).ready(function(){
 
 			<div class="header_bottom_right_images">
 
-				 	<div class="about_wrapper"><h1>Realizar Evaluaci&oacute;</h1> </div>
+				 	<div class="about_wrapper"><h1>Realizar Evaluaci&oacute;n</h1> </div>
 
 						<div class="about-group"> 
 
