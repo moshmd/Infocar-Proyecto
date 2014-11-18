@@ -84,15 +84,15 @@ include ("codigosPHP/permisoadministrador.php")?>
   </tr>
   <tr>
     <td>nombre usuario</td>
-    <td> <input type="text" name="usuario"></td>
+    <td> <input type="text" name="usuario" required></td>
   </tr>
   <tr>
     <td>clave </td>
-    <td><input type="password" name="clave"></td>
+    <td><input type="password" name="clave" required></td>
   </tr>
   <tr>
     <td>correo</td>
-    <td><input type="text" name="correo"></td>
+    <td><input type="email" pattern="^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="correo" required></td>
   </tr>
     <td>bot&oacute;n</td>
     <td> <input type="submit" name="login" value="ingresar"</td>
